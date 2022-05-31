@@ -40,15 +40,15 @@ let region = Continents.Africa // == 2
 
 // Interfaces
 
-interface User {
-    name: string,
-    id: number,
-}
+// interface User {
+//     name: string,
+//     id: number,
+// }
 
-const user: User = {
-    name: 'John',
-    id: 0
-}
+// const user: User = {
+//     name: 'John',
+//     id: 0
+// }
 
 // Composing types -> Union
 type WindowStates = "open" | "closed" | "minimized"
